@@ -14,9 +14,5 @@ pipeline {
 ```
 
 
-      File "<ipython-input-1-80b944ddd494>", line 1
-        pipeline {
-                 ^
-    SyntaxError: invalid syntax
-    
+     
 
