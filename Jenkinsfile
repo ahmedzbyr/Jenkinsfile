@@ -4,7 +4,6 @@ node {
     
     // Make the output directory.
     sh "mkdir -p output"
-    sh "apt-get install python -y"
 
     // Write an useful file, which is needed to be archived.
     writeFile file: "output/usefulfile.txt", text: "This file is useful, need to archive it."
